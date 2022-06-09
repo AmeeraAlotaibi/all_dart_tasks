@@ -17,5 +17,5 @@ void main() {
 
   print("My name is ${firstName.toUpperCase()} and my last name is ${lastName.toLowerCase()}");
 
-  print(lastName.contains("d"));
+  print(lastName.startsWith("d"));
 }
