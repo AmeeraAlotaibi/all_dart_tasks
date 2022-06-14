@@ -17,13 +17,12 @@ void main() {
     }
   }
 
+  // ------------ //
   print(max);
-
-  // -- //
   print(filteredVisitors(numbers, 3));
-
   print(findOdds(numbers));
 }
+
 
 // functions
 
@@ -31,6 +30,7 @@ void main() {
 List<int> filteredVisitors(List<int> ages, int minAge) {
   return ages.where((age) => age > minAge).toList();
 }
+
 
 // returns the first odd number from a list
 int findOdds(List<int> numbers) {
